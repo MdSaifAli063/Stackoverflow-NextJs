@@ -1,3 +1,3 @@
 # Stack_OverFlow Ques & Ans (NextJs)
 
-It's a Stackoverflow clone.
+It's a Stackoverflow clone .
