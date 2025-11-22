@@ -10,13 +10,6 @@ A lightweight StackOverflow-like Q&A web application built with Next.js and Appw
 - Server-side code interacting with Appwrite SDK
 - Minimal, extendable UI (Next.js + React)
 
-## Tech stack
-
-- Frontend: Next.js (React)
-- Backend / API: Appwrite (self-hosted or cloud)
-- Language: TypeScript / JavaScript
-- Optional: Tailwind CSS, Prisma, or other libs depending on your fork
-
 
 
 
