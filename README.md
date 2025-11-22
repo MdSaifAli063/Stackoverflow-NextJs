@@ -34,10 +34,7 @@ NEXT_PUBLIC_APPWRITE_PROJECT_ID=[YOUR_PROJECT_ID]               # Appwrite proje
 APPWRITE_API_KEY=[YOUR_SERVER_API_KEY]                          # server-side admin key (keep secret)
 ```
 
-Notes:
 
-- Use NEXT*PUBLIC* prefix for variables that must be exposed to client-side code.
-- Keep server-only secrets (like APPWRITE*API_KEY) without NEXT_PUBLIC* so they are not bundled to the browser.
 
 
 
