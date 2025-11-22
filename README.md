@@ -17,11 +17,6 @@ A lightweight StackOverflow-like Q&A web application built with Next.js and Appw
 - Language: TypeScript / JavaScript
 - Optional: Tailwind CSS, Prisma, or other libs depending on your fork
 
-## Prerequisites
-
-- Node.js 18+ (or the version compatible with your Next.js version)
-- npm or yarn
-- An Appwrite project (endpoint, project ID and API key)
 
 
 
