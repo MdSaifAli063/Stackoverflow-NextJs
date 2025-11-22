@@ -89,7 +89,3 @@ Notes:
 
 Specify your license here (e.g., MIT). Update as needed.
 
-## Useful links
-
-- Appwrite docs: https://appwrite.io/docs
-- Next.js docs: https://nextjs.org/docs
