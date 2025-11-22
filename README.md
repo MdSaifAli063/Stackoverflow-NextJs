@@ -23,16 +23,6 @@ A lightweight StackOverflow-like Q&A web application built with Next.js and Appw
 - npm or yarn
 - An Appwrite project (endpoint, project ID and API key)
 
-## Environment variables
-
-Create a `.env.local` file in the project root (do NOT commit secrets). Example variables used by this project:
-
-```env
-# filepath: d:\stackoverflow-appwrite\.env.example
-NEXT_PUBLIC_APPWRITE_ENDPOINT=https://[YOUR_APPWRITE_ENDPOINT]   # public endpoint for client SDK
-NEXT_PUBLIC_APPWRITE_PROJECT_ID=[YOUR_PROJECT_ID]               # Appwrite project ID
-APPWRITE_API_KEY=[YOUR_SERVER_API_KEY]                          # server-side admin key (keep secret)
-```
 
 
 
