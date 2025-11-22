@@ -85,7 +85,4 @@ Notes:
 - Send PRs with focused changes and tests (if applicable).
 - Keep secrets out of git.
 
-## License
-
-Specify your license here (e.g., MIT). Update as needed.
 
