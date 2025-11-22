@@ -79,10 +79,3 @@ Notes:
 - When deploying (Vercel, Netlify, or custom), set the same environment variables in your platform's dashboard.
 - Avoid exposing APPWRITE_API_KEY on the client; keep the admin key only on server/runtime.
 
-## Contributing
-
-- Open issues describing bugs or enhancement requests.
-- Send PRs with focused changes and tests (if applicable).
-- Keep secrets out of git.
-
-
