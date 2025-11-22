@@ -57,22 +57,6 @@ Notes:
    - Build: `npm run build`
    - Start: `npm start`
 
-## Common issues & troubleshooting
-
-- Error: "Cannot read properties of undefined (reading 'endpoint')"
-
-  - Cause: Appwrite environment variables are not set or not available where the code expects them (server vs client).
-  - Fix:
-    1. Ensure `.env.local` has the correct keys (see the example above).
-    2. Server-side code should read server-only env vars (no NEXT*PUBLIC* prefix) and client code should use NEXT*PUBLIC* variables.
-    3. Restart the dev server after changing `.env.local`.
-    4. If the error points to a file like `models/server/config.ts`, ensure that file accesses process.env properly, e.g.:
-       - process.env.NEXT_PUBLIC_APPWRITE_ENDPOINT for client usage
-       - process.env.APPWRITE_API_KEY for server-only usage
-    5. For local testing, you can log `process.env` in a safe place to verify variables are loaded.
-
-- Next.js warning: "The 'middleware' file convention is deprecated. Please use 'proxy' instead."
-  - Action: Follow the Next.js docs to migrate middleware usage to proxy routes. This is unrelated to Appwrite config but good to address before upgrading Next.js.
 
 
 
