@@ -39,23 +39,7 @@ Notes:
 - Use NEXT*PUBLIC* prefix for variables that must be exposed to client-side code.
 - Keep server-only secrets (like APPWRITE*API_KEY) without NEXT_PUBLIC* so they are not bundled to the browser.
 
-## Local setup
 
-1. Install dependencies:
-
-   - npm: `npm install`
-   - yarn: `yarn install`
-
-2. Add `.env.local` using the variables described above.
-
-3. Run the dev server:
-
-   - npm: `npm run dev`
-   - yarn: `yarn dev`
-
-4. Build and start:
-   - Build: `npm run build`
-   - Start: `npm start`
 
 
 
