@@ -74,8 +74,5 @@ Notes:
 - Next.js warning: "The 'middleware' file convention is deprecated. Please use 'proxy' instead."
   - Action: Follow the Next.js docs to migrate middleware usage to proxy routes. This is unrelated to Appwrite config but good to address before upgrading Next.js.
 
-## Deploy
 
-- When deploying (Vercel, Netlify, or custom), set the same environment variables in your platform's dashboard.
-- Avoid exposing APPWRITE_API_KEY on the client; keep the admin key only on server/runtime.
 
