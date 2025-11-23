@@ -76,14 +76,12 @@ export async function POST(request: NextRequest) {
                     Query.equal("type", type),
                     Query.equal("typeId", typeId),
                     Query.equal("voteStatus", "upvoted"),
-                    Query.equal("votedById", votedById),
                     Query.limit(1), // for optimization as we only need total
                 ]),
                 databases.listDocuments(db, voteCollection, [
                     Query.equal("type", type),
                     Query.equal("typeId", typeId),
                     Query.equal("voteStatus", "downvoted"),
-                    Query.equal("votedById", votedById),
                     Query.limit(1), // for optimization as we only need total
                 ]),
             ]);
@@ -104,14 +102,12 @@ export async function POST(request: NextRequest) {
                 Query.equal("type", type),
                 Query.equal("typeId", typeId),
                 Query.equal("voteStatus", "upvoted"),
-                Query.equal("votedById", votedById),
                 Query.limit(1), // for optimization as we only need total
             ]),
             databases.listDocuments(db, voteCollection, [
                 Query.equal("type", type),
                 Query.equal("typeId", typeId),
                 Query.equal("voteStatus", "downvoted"),
-                Query.equal("votedById", votedById),
                 Query.limit(1), // for optimization as we only need total
             ]),
         ]);
