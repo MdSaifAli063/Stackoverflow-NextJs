@@ -1,5 +1,14 @@
 # 🧠 StackOverflow-like Q&A (Next.js + Appwrite)
 
+<p align="left">
+  <a href="https://nextjs.org" target="_blank"><img alt="Next.js" src="https://img.shields.io/badge/Next.js-16-black?logo=next.js&logoColor=white"></a>
+  <a href="https://www.typescriptlang.org/" target="_blank"><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white"></a>
+  <a href="https://appwrite.io/" target="_blank"><img alt="Appwrite" src="https://img.shields.io/badge/Appwrite-Cloud-f02e65?logo=appwrite&logoColor=white"></a>
+  <a href="https://tailwindcss.com/" target="_blank"><img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind%20CSS-4-38B2AC?logo=tailwindcss&logoColor=white"></a>
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-green">
+  <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg">
+</p>
+
 A modern, lightweight StackOverflow-style Q&A application built with Next.js and Appwrite. It supports asking questions, answering, voting, and commenting with user authentication and a polished UI.
 
 
