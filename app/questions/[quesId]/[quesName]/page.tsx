@@ -14,7 +14,7 @@ import {
     questionAttachmentBucket,
 } from "@/models/name";
 import { databases, users } from "@/models/server/config";
-import { storage } from "@/models/client/config";
+// import { storage } from "@/models/client/config";
 import { UserPrefs } from "@/store/Auth";
 import convertDateToRelativeTime from "@/utils/relativeTime";
 import slugify from "@/utils/slugify";
@@ -170,12 +170,7 @@ const Page = async ({ params }: { params: { quesId: string; quesName: string } }
                         <MarkdownPreview className="rounded-xl p-4" source={question.content} />
                         <picture>
                             <img
-                                src={
-                                    storage.getFilePreview(
-                                        questionAttachmentBucket,
-                                        question.attachmentId
-                                    ).href
-                                }
+                                src={`${process.env.NEXT_PUBLIC_APPWRITE_ENDPOINT || process.env.APPWRITE_ENDPOINT}/storage/buckets/${questionAttachmentBucket}/files/${question.attachmentId}/preview?project=${process.env.NEXT_PUBLIC_APPWRITE_PROJECT_ID || process.env.APPWRITE_PROJECT_ID}`}
                                 alt={question.title}
                                 className="mt-3 rounded-lg"
                             />
