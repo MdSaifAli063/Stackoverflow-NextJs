@@ -65,7 +65,7 @@ Create a .env file in the project root. The server config reads multiple fallbac
 
 
 
-- Server/edge-safe loader (models/server/config.ts) supports both node-appwrite and appwrite packages and gracefully stubs when env or SDK is missing.
+
 
 
 ## 🧪 Collections & Storage
