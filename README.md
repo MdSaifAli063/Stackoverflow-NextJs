@@ -64,10 +64,6 @@ Create a .env file in the project root. The server config reads multiple fallbac
 - APPWRITE_API_KEY=your-api-key-with-database-and-storage-perms
 
 
-
-
-
-
 ## 🧪 Collections & Storage
 The Appwrite database and storage are created/verified automatically via middleware on first request:
 - Database: main-stackflow
