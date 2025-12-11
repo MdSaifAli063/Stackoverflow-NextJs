@@ -64,7 +64,7 @@ Create a .env file in the project root. The server config reads multiple fallbac
 - APPWRITE_API_KEY=your-api-key-with-database-and-storage-perms
 
 
-- Public SDK (browser) uses NEXT_PUBLIC_* values from models/client/config.ts.
+
 - Server/edge-safe loader (models/server/config.ts) supports both node-appwrite and appwrite packages and gracefully stubs when env or SDK is missing.
 
 
